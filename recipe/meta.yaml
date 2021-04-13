@@ -23,7 +23,7 @@ requirements:
     - pip
     - python
     - mahotas
-    - numpy
+    - numpy >=1.19
     - libopencv
     - opencv
     - scikit-image
@@ -31,7 +31,7 @@ requirements:
   run:
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - mahotas
-    - numpy
+    - numpy >=1.19
     - libopencv
     - opencv
     - scikit-image
