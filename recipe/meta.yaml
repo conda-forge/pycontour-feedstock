@@ -23,7 +23,7 @@ requirements:
     - pip
     - python
     - mahotas
-    - numpy >=1.19
+    - numpy
     - libopencv
     - opencv
     - scikit-image
