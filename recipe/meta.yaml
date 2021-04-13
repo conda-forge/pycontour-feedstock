@@ -1,5 +1,5 @@
 {% set name = "pycontour" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1aa985a9a0fef75ec8749a8b2c934461ec2637e6924fe5dea4012ed1bad1bc1e
+  sha256: ece15443d210ce4e902a3c9a292b03324f0dc2d33ac5633a222848b13dba9ca7
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 # run dependencies are being installed in host because of 
