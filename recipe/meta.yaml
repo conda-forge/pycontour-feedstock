@@ -1,5 +1,5 @@
 {% set name = "pycontour" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ece15443d210ce4e902a3c9a292b03324f0dc2d33ac5633a222848b13dba9ca7
+  sha256: 00b1fa17e40ed913e88082c76aa811fa0ca5774485fe2c398f479ea9cc925971
 
 build:
   number: 0
