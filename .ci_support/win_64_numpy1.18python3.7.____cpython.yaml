@@ -3,7 +3,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 libopencv:
-- 4.5.3
+- 4.5.5
 numpy:
 - '1.18'
 pin_run_as_build:
