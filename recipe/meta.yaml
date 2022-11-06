@@ -11,7 +11,7 @@ source:
   sha256: 00b1fa17e40ed913e88082c76aa811fa0ca5774485fe2c398f479ea9cc925971
 
 build:
-  number: 5
+  number: 6
   script: {{ PYTHON }} -m pip install . -vv
 
 # run dependencies are being installed in host because of 
