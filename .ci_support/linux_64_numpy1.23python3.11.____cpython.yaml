@@ -7,7 +7,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 libopencv:
-- 4.8.0
+- 4.8.1
 numpy:
 - '1.23'
 pin_run_as_build:
