@@ -28,6 +28,7 @@ requirements:
     - opencv
     - scikit-image
     - shapely
+    - setuptools
   run:
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - mahotas
