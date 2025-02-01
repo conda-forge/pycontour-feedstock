@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 00b1fa17e40ed913e88082c76aa811fa0ca5774485fe2c398f479ea9cc925971
 
 build:
-  number: 10
+  number: 11
   script: {{ PYTHON }} -m pip install . -vv
 
 # run dependencies are being installed in host because of 
@@ -28,6 +28,7 @@ requirements:
     - opencv
     - scikit-image
     - shapely
+    - setuptools
   run:
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - mahotas
